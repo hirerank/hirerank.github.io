@@ -1,0 +1,22 @@
+{
+  "name": "recruiterreport.co",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/recruiterreport/recruiterreport.co.git"
+  },
+  "author": "Nater Kane <nater@naterkane.com>",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/recruiterreport/recruiterreport.co/issues"
+  },
+  "homepage": "https://github.com/recruiterreport/recruiterreport.co#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
