@@ -5,5 +5,7 @@ module.exports = {
   siteName: "RecruiterReport",
   siteDescription:
     "Fix the candidate experience!<br/>Review recruiters and staffing organizations.",
+  metaDescription:
+    "Review recruiters and staffing organizations and demand a healthy candidate experience!",
   //authorName: "Nater Kane", // optional
 };
