@@ -1,0 +1,61 @@
+{
+  "name": "rr-web-ui",
+  "homepage": "https://recruiterreport.co",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Nater Kane <nater@naterkane.com>",
+  "scripts": {
+    "build": "next build",
+    "wpe-build": "npm run build",
+    "dev": "next dev",
+    "export": "next export",
+    "format": "npm run lint --fix",
+    "format:no-path": "npm run lint:no-path --fix",
+    "lint": "eslint .",
+    "lint:no-path": "eslint",
+    "start": "next start -p ${PORT:=3000}",
+    "prepare": "cd .. && husky install & npx husky add ../.husky/commit-msg 'npx --no -- commitlint --edit '"
+  },
+  "lint-staged": {
+    "**/*.js": "npm run format:no-path",
+    "**/*.scss": "npm run prettier --write"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5",
+    "date-fns": "^2.28.0",
+    "dotenv": "^16.0.1",
+    "fuse.js": "^6.6.2",
+    "graphql": "^16.4.0",
+    "he": "^1.2.0",
+    "loader-utils": "^3.2.0",
+    "next": "^12.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "nextjs-progressbar": "^0.0.14",
+    "parameterize": "^1.0.0",
+    "path": "^0.12.7",
+    "playwright": "^1.21.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "rss": "^1.2.2",
+    "sass": "^1.52.1",
+    "style.css": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-next": "^12.1.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "lint-staged": ">=12.5.0",
+    "prettier": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recruiterreport/webclient"
+  },
+  "bugs": {
+    "url": "https://github.com/recruiterreport/webclient/issues"
+  }
+}

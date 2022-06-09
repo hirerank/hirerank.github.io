@@ -1,0 +1,47 @@
+name: Checks
+
+on: [push, pull_request]
+
+jobs:
+  linting:
+    name: Linting
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # install dependencies from package-lock.json
+      - name: Install dependencies with npm
+        run: npm ci
+
+      # Run linting with yarn
+      - run: npm run lint
+
+  static-compat:
+    name: Static Compatability
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # install dependencies from package-lock.json
+      - name: Install dependencies with npm
+        run: npm ci
+
+      - run: npm run build && npm run export
+        env:
+          WORDPRESS_GRAPHQL_ENDPOINT: ${{ secrets.WORDPRESS_GRAPHQL_ENDPOINT }}

@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "mysql",
+    "host": "localhost",
+    "database": "wordpress",
+    "user": "wordpress",
+    "password": "wordpress",
+    "multipleStatements": true
+  }
+}

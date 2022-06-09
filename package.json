@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "lint": "eslint web-ui/src/**/*.js",
+    "prepare": "husky install & npx husky add .husky/commit-msg 'npx --no -- commitlint --edit '"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,13 @@
   },
   "homepage": "https://github.com/recruiterreport/recruiterreport.co#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^1.0.0",
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "husky": "^8.0.1"
+  },
+  "dependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-mysql": "^2.2.0"
   }
 }
