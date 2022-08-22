@@ -27,7 +27,4 @@ layout: page.njk
 
 <!--End mc_embed_signup-->
 
-<!-- Provided within _data/catpic.js -->
-
-![cat of the day]({{ catpic }})
 
