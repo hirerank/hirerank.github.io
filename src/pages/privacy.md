@@ -5,12 +5,12 @@
 PRIVACY NOTICE
 ==============
 
-_Last updated June 13, 2022_
+_Last updated November 14, 2022_
 
-This privacy notice for Very Good LLC (doing business as RecruiterReport) ("**RecruiterReport**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
+This privacy notice for Very Good LLC (doing business as HireRank) ("**HireRank**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
-*   Visit our website at [https://recruiterreport.co](https://recruiterreport.co), or any website of ours that links to this privacy notice
-*   Download and use our mobile application (RecruiterReport), or any other application of ours that links to this privacy notice
+*   Visit our website at [https://hirerank.cc](https://hirerank.cc), or any website of ours that links to this privacy notice
+*   Download and use our mobile application (HireRank), or any other application of ours that links to this privacy notice
 *   Engage with us in other related ways, including any sales, marketing, or events
 
 **Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at _info@recruiter.report_.
@@ -20,7 +20,7 @@ SUMMARY OF KEY POINTS
 
 **_This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our table of contents below to find the section you are looking for. You can also click [here](#toc) to go directly to our table of contents._**
 
-**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with RecruiterReport and the Services, the choices you make, and the products and features you use. Click [here](#personalinfo) to learn more.
+**What personal information do we process?** When you visit, use, or navigate our Services, we may process personal information depending on how you interact with HireRank and the Services, the choices you make, and the products and features you use. Click [here](#personalinfo) to learn more.
 
 **Do we process any sensitive personal information?** We do not process sensitive personal information.
 
@@ -34,9 +34,9 @@ SUMMARY OF KEY POINTS
 
 **What are your rights?** Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Click [here](#privacyrights) to learn more.
 
-**How do you exercise your rights?** The easiest way to exercise your rights is by filling out our data subject request form available here: recruiterreport.co/contact, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+**How do you exercise your rights?** The easiest way to exercise your rights is by filling out our data subject request form available here: hirerank.cc/contact, or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
 
-Want to learn more about what RecruiterReport does with any information we collect? Click [here](#toc) to review the notice in full.
+Want to learn more about what HireRank does with any information we collect? Click [here](#toc) to review the notice in full.
 
 TABLE OF CONTENTS
 -----------------
@@ -261,7 +261,7 @@ We may also collect other personal information outside of these categories insta
 
 More information about our data collection and sharing practices can be found in this privacy notice.
 
-You may contact us by visiting recruiterreport.co/contact, or by referring to the contact details at the bottom of this document.
+You may contact us by visiting hirerank.cc/contact, or by referring to the contact details at the bottom of this document.
 
 If you are using an authorized agent to exercise your right to opt out we may deny a request if the authorized agent does not submit proof that they have been validly authorized to act on your behalf.
 
@@ -310,7 +310,7 @@ We will only use personal information provided in your request to verify your id
 *   You can designate an authorized agent to make a request under the CCPA on your behalf. We may deny a request from an authorized agent that does not submit proof that they have been validly authorized to act on your behalf in accordance with the CCPA.
 *   You may request to opt out from future selling of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.
 
-To exercise these rights, you can contact us by visiting [recruiterreport.co/contact](https://recruiterreport.co/contact), or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+To exercise these rights, you can contact us by visiting [hirerank.cc/contact](https://hirerank.cc/contact), or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
 
 <span id="policyupdates"></span>11\. DO WE MAKE UPDATES TO THIS NOTICE?
 --------------------------------------
@@ -333,6 +333,6 @@ United States
 <span id="request"></span>13\. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?
 ----------------------------------------------------------------------------
 
-Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: [recruiterreport.co/contact](https://recruiterreport.co/contact).
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please visit: [hirerank.cc/contact](https://hirerank.cc/contact).
 
 This privacy policy was created using Termly's [Privacy Policy Generator](https://termly.io/products/privacy-policy-generator).
