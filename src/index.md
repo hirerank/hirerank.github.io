@@ -1,5 +1,5 @@
 ---
-title: Recruiter Report
+title: HireRank
 layout: page.njk
 ---
 
