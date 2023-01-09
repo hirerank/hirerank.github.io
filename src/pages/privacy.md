@@ -5,15 +5,15 @@
 PRIVACY NOTICE
 ==============
 
-_Last updated November 14, 2022_
+_Last updated January 9, 2023_
 
-This privacy notice for Very Good LLC (doing business as HireRank) ("**HireRank**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
+This privacy notice for Very Good Corporation (doing business as HireRank) ("**HireRank**," "**we**," "**us**," or "**our**"), describes how and why we might collect, store, use, and/or share ("**process**") your information when you use our services ("**Services**"), such as when you:
 
 *   Visit our website at [https://hirerank.cc](https://hirerank.cc), or any website of ours that links to this privacy notice
 *   Download and use our mobile application (HireRank), or any other application of ours that links to this privacy notice
 *   Engage with us in other related ways, including any sales, marketing, or events
 
-**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at _info@recruiter.report_.
+**Questions or concerns?** Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at _info@hirerank.cc_.
 
 SUMMARY OF KEY POINTS
 ---------------------
@@ -208,7 +208,7 @@ However, please note that this will not affect the lawfulness of the processing 
 
 Upon your request to terminate your account, we will deactivate or delete your account and information from our active databases. However, we may retain some information in our files to prevent fraud, troubleshoot problems, assist with any investigations, enforce our legal terms and/or comply with applicable legal requirements.
 
-If you have questions or comments about your privacy rights, you may email us at privacy@recruiter.report.
+If you have questions or comments about your privacy rights, you may email us at privacy@hirerank.cc.
 
 <span id="DNT"></span>9\. CONTROLS FOR DO-NOT-TRACK FEATURES
 --------------------------------------
@@ -322,9 +322,9 @@ We may update this privacy notice from time to time. The updated version will be
 <span id="contact"></span>12\. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 ---------------------------------------------
 
-If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO), Nater Kane, by email at privacy@recruiter.report, or by post to:
+If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO), Nater Kane, by email at privacy@hirerank.cc, or by post to:
 
-Very Good Corp  
+Very Good Corporation  
 Nater Kane  
 4706 Ribble Ct  
 Ellicott City, MD 21043
