@@ -1,5 +1,5 @@
 {
-  "name": "recruiterreport.co",
+  "name": "hirerank.cc",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/recruiterreport/recruiterreport.co.git"
+    "url": "git+https://github.com/hirerank/hirerank.cc.git"
   },
-  "author": "Nater Kane <nater@naterkane.com>",
+  "author": "Nater Kane <nater@hirerank.cc>",
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
-    "url": "https://github.com/recruiterreport/recruiterreport.co/issues"
+    "url": "https://github.com/hirerank/hirerank.cc/issues"
   },
-  "homepage": "https://github.com/recruiterreport/recruiterreport.co#readme",
+  "homepage": "https://github.com/hirerank/hirerank.cc#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0"
+    "@11ty/eleventy": "^2.0.0"
   }
 }
