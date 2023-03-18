@@ -1,7 +1,7 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
 
 <div class="hr-top-bar">
-  <div class="hr-top-bar__content">
+  <header class="hr-top-bar__content">
     <a href="https://hirerank.cc" target="_blank">
       <span class="hr-top-bar__heading">HireRank</span>
     </a>
@@ -9,8 +9,8 @@
       <span></span>
     </div>
     <nav>
-      <ul role="list"><!--
-        <li>
+      <ul role="list">
+        <!--<li>
           <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
         </li>
         
@@ -31,5 +31,5 @@
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
 </div>

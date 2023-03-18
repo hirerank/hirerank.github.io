@@ -18,7 +18,7 @@ You can help us make it suck less.</h1></div>
     </script>
 </div>
 
-<div id="get-extension">
+<div id="get-extension" class="em">
 <article>
 <h1>Get our browser extension</h1>
 <a href="https://chrome.google.com/webstore/detail/nbodnfcbgadbbolfalgfcndkklccbfef/preview?hl=en&authuser=0" target="_blank" class="chrome-store-button"><span>Available in the Chrome Web Store</span></a>
@@ -47,7 +47,7 @@ You can help us make it suck less.</h1></div>
 <h1>Stay in the loop!</h1>
 <!-- Begin Mailchimp Signup Form -->
 <p>Once in a blue moon we send out emails about new features, or other stuff we have going on. Wi will never ever ever share your email with anyone. Our <a href="/privacy">Privacy Policy</a> has been written for your benefit, not ours.</p>
-<div id="mc_embed_signup">
+<div id="mc_embed_signup" class="em">
 <form action="https://report.us20.list-manage.com/subscribe/post?u=455d34947bfdd62f54496d27f&id=105eaf57e4&f_id=008426e7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">You know how email forms work</label>
@@ -67,9 +67,9 @@ You can help us make it suck less.</h1></div>
 
 <h1>Are you a recruiter?</h1>
 <blockquote>
-<h2>If you're fantastic <em>(or terrible)</em> at hiring, HireRank will make sure every jobseeker knows about it.</h2>
-<p>We are a candidate-advocacy startup. Job-seekers and their quality-of-experience is our mission.</p>
-<p>If you think you've got what it takes to help us make hiring suck less for everybody, feel drop us a note at <a href="mailto:iwanttohelp@hirerank.cc">iwanttohelp@hirerank.cc</a> and tell us how.</p>
+<h2>If you're fantastic <em>(or terrible)</em> at hiring, HireRank will make sure every job seeker knows about it.</h2>
+<p><!-- We are first and foremost a candidate-advocacy startup.  -->Our mission is to enable all job seekers to have a good time while looking for work.</p>
+<p>If you think you've got what it takes to help us make hiring suck less for <em>everybody</em>, feel drop us a note at <a href="mailto:iwanttohelp@hirerank.cc">iwanttohelp@hirerank.cc</a> and tell us how.</p>
 </blockquote>
 </article>
 </div>

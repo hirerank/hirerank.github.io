@@ -14,11 +14,9 @@
   <meta name="msapplication-TileImage" content="/assets/favicon-144.png">
   <meta name="msapplication-TileColor" content="#2A2A2A">
   <title>{{ title }}{% if page.url != '/' %} | {{ meta.siteName }}{% endif %}</title>
-  <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-  <link href="{{'/css/slim-10_7_dtp.css'}}" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  </style>
+  
+  <link rel="stylesheet" href="{{ '/css/bundle.css' | url }}" type="text/css">
+  
 </head>
 <body>
   {% include "nav.njk" %}
