@@ -344,6 +344,11 @@ body > footer div {
   padding-bottom: 0.5em;
   font-size: 1.4rem;
   color: var(--dk-gray);
+  p {
+    a {
+      display: inline-block;
+    }
+  }
 }
 body > footer ul {
   list-style: none;
