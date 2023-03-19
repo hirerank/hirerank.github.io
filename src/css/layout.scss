@@ -59,14 +59,14 @@ main > * + * {
 div.main-content {
   background-color: var(--white75);
   border-radius: 0 0 1rem 1rem;
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem;
   position: relative;
   margin-top: calc(5rem + 1px);
 }
 
 .hr-top-bar {
   /*overflow: hidden;*/
-  background-color: var(--lt-base);
+  background: linear-gradient(90deg, var(--header-left), var(--header-right)); /*  var(--lt-base50); */
   position: fixed;
   top: 0px;
   width: 100%;
