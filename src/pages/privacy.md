@@ -1,3 +1,9 @@
+---
+title: Privacy Policy
+layout: page.njk
+excludenav: true
+---
+
 <style>
 #toc>ol { counter-reset: section; }  \[data-custom-class="body"\], \[data-custom-class="body"\] \* { background: transparent !important; } \[data-custom-class="title"\], \[data-custom-class="title"\] \* { font-family: Arial !important; font-size: 26px !important; color: #000000 !important; } \[data-custom-class="subtitle"\], \[data-custom-class="subtitle"\] \* { font-family: Arial !important; color: #595959 !important; font-size: 14px !important; } \[data-custom-class="heading\_1"\], \[data-custom-class="heading\_1"\] \* { font-family: Arial !important; font-size: 19px !important; color: #000000 !important; } \[data-custom-class="heading\_2"\], \[data-custom-class="heading\_2"\] \* { font-family: Arial !important; font-size: 17px !important; color: #000000 !important; } \[data-custom-class="body\_text"\], \[data-custom-class="body\_text"\] \* { color: #595959 !important; font-size: 14px !important; font-family: Arial !important; } \[data-custom-class="link"\], \[data-custom-class="link"\] \* { color: #3030f1 !important; font-size: 14px !important; font-family: Arial !important; word-break: break-word !important; } ol.toc { counter-reset: item; list-style-type: none; list-style-position: inside; } ol.toc li::before { counter-increment: item; content: counters(item, ".") ". "; }
 </style>

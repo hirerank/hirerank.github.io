@@ -1,19 +1,35 @@
 {% set currentUrl %}{{ page.url }}{% endset %}
 
-<nav>
-  <ul role="list">
-    <li>
-      <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
-    </li>
-
-    {% for page in collections.pages %}
-    <li>
-      <a 
-        {% if currentUrl === page.url %}aria-current="page"{% endif %} 
-        href="{{ page.url }}">
-          {{ page.data.title }}
-      </a>
-    </li>
-    {%- endfor %}
-  </ul>
-</nav>
+<div class="hr-top-bar">
+  <header class="hr-top-bar__content">
+    <a href="https://hirerank.cc" target="_blank">
+      <span class="hr-top-bar__heading">HireRank</span>
+    </a>
+    <div class="hr-top-notification">
+      <span></span>
+    </div>
+    <nav>
+      <ul role="list">
+        <!--<li>
+          <a {% if currentUrl === '/' %}aria-current="page"{% endif %} href="/">Home</a>
+        </li>
+        
+        {% for page in collections.pages %}
+        {% if page.data.excludenav !== true%}
+        <li>
+          <a 
+            {% if currentUrl === page.url %}aria-current="page"{% endif %} 
+            href="{{ page.url }}">
+              {{ page.data.title }}
+          </a>
+        </li>
+        {% endif %} 
+        {%- endfor %}
+        -->
+        <li>
+          <a class="cta" href="https://chrome.google.com/webstore/detail/nbodnfcbgadbbolfalgfcndkklccbfef/preview?hl=en&authuser=0" target="_blank">Install Now!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+</div>

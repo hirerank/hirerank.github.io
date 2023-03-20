@@ -4,6 +4,8 @@ module.exports = {
   url: process.env.URL || "http://localhost:8080",
   siteName: "HireRank",
   siteDescription:
+    "Getting hired can be <u>________</u>.<br/>You can help us make it suck less.",
+  siteDescriptionx:
     "Fix the candidate experience!<br/>Review recruiters and staffing organizations.",
   metaDescription:
     "Review recruiters and staffing organizations and demand a healthy candidate experience!",

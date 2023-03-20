@@ -1,0 +1,37 @@
+/* Color */
+:root {
+  --accent: hsl(356, 68%, 53%);
+  --offwhite: hsl(105, 55%, 96%);
+  --lt-base: hsl(182, 43%, 76%);
+  --lt-base50: hsla(182, 43%, 76%, 0.5);
+  --med-base: hsl(203, 39%, 44%);
+  --dk-base: hsl(215, 50%, 23%);
+  --green: hsl(134, 70%, 43%);
+  --red: hsl(353, 100%, 38%);
+  --cyan: hsl(190, 83%, 56%);
+  --saffron: hsl(44, 88%, 58%);
+  --white: hsl(0, 0%, 100%);
+  --white05: hsla(0, 0%, 100%, 0.05);
+  --white10: hsla(0, 0%, 100%, 0.1);
+  --white35: hsla(0, 0%, 100%, 0.35);
+  --white50: hsla(0, 0%, 100%, 0.5);
+  --white75: hsla(0, 0%, 100%, 0.75);
+  --md-gray: hsl(0, 0%, 87%);
+  --dk-gray: hsl(0, 0%, 46%);
+  --black: hsl(0, 0%, 13%);
+  --05: hsla(0, 0%, 0%, 0.05);
+  --10: hsla(0, 0%, 0%, 0.1);
+  --35: hsla(0, 0%, 0%, 0.35);
+  --50: hsla(0, 0%, 0%, 0.5);
+  --header-left: hsl(206, 80%, 67%);
+  --header-right: hsl(224, 73%, 75%);
+}
+
+/* Media */
+
+@supports (aspect-ratio: 1) {
+  article img {
+    max-height: unset;
+    aspect-ratio: 3/2;
+  }
+}

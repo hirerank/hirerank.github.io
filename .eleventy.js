@@ -1,5 +1,9 @@
+const eleventySass = require("@11tyrocks/eleventy-plugin-sass-lightningcss");
+
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("./src/css/");
+  eleventyConfig.addPlugin(eleventySass);
+
+  //eleventyConfig.addPassthroughCopy("./src/css/");
   eleventyConfig.addWatchTarget("./src/css/");
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addWatchTarget("./src/assets");
@@ -9,6 +13,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
+      
       input: "src",
       output: "docs",
     },
