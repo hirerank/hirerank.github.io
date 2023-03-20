@@ -22,6 +22,16 @@ body > *,
   margin-right: auto;
 }
 
+.sr-only {
+  position: absolute;
+  margin: 0;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 /*
 nav ul {
   list-style: none;
