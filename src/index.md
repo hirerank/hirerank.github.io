@@ -12,7 +12,7 @@ You can help us make it suck less.</h1></div>
         let v = document.getElementById('hero-verb');
         let t = document.getElementById('hero-term');
         let verbs = ["Looking for work", "Searching for a next gig", "Applying for a new job", "Interviews","Screening calls","Navigating job boards", "Applying for jobs","Working with recruiters"];
-        let words = ["a nightmare","the worst","a pain","hell","pure toil","disorientating","a struggle","an uphill battle"];
+        let words = ["a nightmare","the worst","a pain","hell","pure toil","disorienting","a struggle","an uphill battle"];
         v.innerHTML = verbs[Math.floor(Math.random()*verbs.length)]
         t.innerHTML = `&nbsp;${words[Math.floor(Math.random()*words.length)]}&nbsp;`
     </script>
