@@ -2,6 +2,10 @@
 title: Privacy Policy
 layout: page.njk
 excludenav: true
+pagemeta:
+  description: Privacy Policy - Last updated January 9, 2023
+  twitterCard: summary_large_image
+
 ---
 
 <style>

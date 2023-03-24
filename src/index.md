@@ -1,6 +1,10 @@
 ---
 title: HireRank
 layout: landing.njk
+pagemeta:
+  description: Fix how hiring is done by holding recruiters accountable for the reputations they deserve
+  twitterCard: summary_large_image
+  image: /assets/hero-background.jpg
 ---
 
 <div id="hero">

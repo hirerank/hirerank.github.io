@@ -10,9 +10,24 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
   <link rel="manifest" href="/assets/site.webmanifest">
-  <meta name="application-name" content="RecruiterReport">
+  <meta name="application-name" content="HireRank">
   <meta name="msapplication-TileImage" content="/assets/favicon-144.png">
   <meta name="msapplication-TileColor" content="#2A2A2A">
+  {% if pagemeta %}
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ pagemeta.description }}">
+    <meta property="og:image" content="{{ meta.url }}{% if pagemeta.image %}{{ pagemeta.image }}{% else %}{{ meta.defaultImage }}{% endif %}">
+    <meta property="og:url" content="{{ meta.url }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ meta.siteName }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="{{ meta.twitter }}">
+    <meta name="twitter:creator" content="{{ meta.twitter }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ pagemeta.description }}">
+    <meta name="twitter:image" content="{{ meta.url }}{% if pagemeta.image %}{{ pagemeta.image }}{% else %}{{ meta.defaultImage }}{% endif %}">
+    <meta name="twitter:url" content="{{ meta.url }}{{ page.url }}">
+  {% endif %}
   <title>{{ title }}{% if page.url != '/' %} | {{ meta.siteName }}{% endif %}</title>
   
   <link rel="stylesheet" href="{{ '/css/bundle.css' | url }}" type="text/css">
